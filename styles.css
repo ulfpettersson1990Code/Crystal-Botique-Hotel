@@ -1,0 +1,121 @@
+body {
+  background-color: #93007F;
+  margin: 0px;
+  padding: 0px;
+}
+.container{
+ width: 100%;
+ text-align: center;
+
+}
+.topnav {
+  background-color: #5B004E;
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #FF00DD;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: #FF00DD;
+  color: #FFD8F4;
+}
+
+
+.topnav .icon {
+  display: none;
+}
+
+h1{
+  padding: 10px;
+  font-family: "cormorant garamond", serif;
+  font-weight: 700;
+  color: #FFD8F4;
+  margin: 0px;
+}
+p{
+  font-family: "cormorant garamond", serif;
+  font-weight: 700;
+  color: #FFD8F4;
+  font-size: 30px;
+  margin: 0px;
+  padding: 20px;
+}
+
+#kristall {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.kontakt-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.kort {
+  background-color: #6B005C;
+  padding: 30px;
+  width: 400px;
+}
+
+.kort label {
+  display: block;
+  color: #E8A0D8;
+  margin-top: 10px;
+}
+
+.kort input, .kort textarea {
+  width: 100%;
+  background-color: #D3D3D3;
+  border: none;
+  padding: 5px;
+}
+
+.kort textarea {
+  height: 120px;
+}
+
+.text-kort h2 {
+  color: #FF00DD;
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.text-kort p {
+  color: white;
+  text-align: center;
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+}
+
+.telefon {
+  text-align: center;
+  color: #FF00DD;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 24px;
+}
